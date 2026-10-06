@@ -7,7 +7,8 @@
     "test": "node --test hw14/api.test.js",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test:hw15": "NODE_OPTIONS=--experimental-vm-modules jest hw15 --runInBand"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "eslint": "^10.11.0",
     "husky": "^9.1.7",
+    "jest": "^30.5.2",
     "prettier": "^3.9.9"
   }
 }
