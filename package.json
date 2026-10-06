@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,10 @@
   "homepage": "https://github.com/DmytroCherep/aqa-advanced#readme",
   "dependencies": {
     "chalk": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.11.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.9.9"
   }
 }
