@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test hw14/api.test.js",
     "lint": "eslint .",
     "format": "prettier --write .",
     "prepare": "husky"
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/DmytroCherep/aqa-advanced#readme",
   "dependencies": {
+    "axios": "^1.20.0",
     "chalk": "^6.0.0"
   },
   "devDependencies": {
